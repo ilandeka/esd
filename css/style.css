@@ -1,0 +1,75 @@
+/*
+* @author Ivan Landeka
+* @project 2
+* @course Client Programming - ISTE 340.801
+* @desc This is my css I used to style the page
+*/
+body,html {
+    font-family: 'Montserrat', sans-serif;
+    height:100%;
+    margin:0;
+}
+h1 {
+    font-size: 4.5em; 
+    margin:10px;
+    background-color: lightskyblue;
+}
+hr,legend,fieldset {
+    border:1px solid black;
+    margin:10px;
+}
+#searchForm input {
+    height: 30px;
+}
+/*
+    Class
+*/
+.bg {
+    background-image: url("../img/Hospital.jpg");
+    height: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.70;
+}
+.overflow {
+    height: 200px;
+}
+.spin {
+    position:fixed;
+    top:0;
+    right:0px;
+    width: 100%;
+    height: 100%;
+    background-color: #666666;
+    opacity: 0.75;
+}
+/*
+    ID
+*/
+#spinner {
+    position: absolute;
+    top: 50%;
+    margin-left: 40%;
+    font-size: 4em;
+}
+#tableOutput {
+    margin: 10px;
+}
+#results {
+    font-size: 40px;
+    margin: 10px;
+}
+#close {
+    font-size: 20px;
+    float:right;
+    margin:10px;
+    color: red;
+}
+#treatTb, #trainTb, #equipTb, #physicTb, #faciliTb, #pplTb {
+    width: 70%;
+}
+#output {
+    background-color: lightskyblue;
+    margin: 20px 10px 10px 10px;
+}
