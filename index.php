@@ -59,6 +59,8 @@
         <!-- This is displayed when we cannot connect to the server -->
         <div id="dialog"><p>Sorry, Server is down or check internet connection!</p></div>
         
+        <h2>Ivan Landeka (C) 2017</h2>
+        
         <!-- Main Script -->
         <script src="js/esd-get-data.js" type="text/javascript"></script>
     </body>
